@@ -1,0 +1,31 @@
+{
+  "window.zoomLevel": 1,
+  "editor.fontSize": 15,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.colorTheme": "Shades of Purple",
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "env": {
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 7
+    }
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vs-kubernetes": {
+    "vs-kubernetes.minikube-path.linux": "/home/luisbarroso/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "cSpell.userWords": [
+    "pomodoro"
+  ]
+}
